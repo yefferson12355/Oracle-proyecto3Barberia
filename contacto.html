@@ -20,41 +20,50 @@
                 </nav>
             </div>
         </header>
-        <form>
-            <main>
-                <label for="NombreyApellido">Nombre y Apellido</label>
-                <input  type="text" id="NombreyApellido " >
-    
-                <label for="CorreoElectronico" >Correo Electronico</label>
-                <input type="text" id="CorreoElectronico">
-    
-                <label for="telefono" >Telefono</label>
-                <input type="text" id="telefono">
-
-                
-            <div>
-                <label for="Mensaje">Mensaje</label>
-                <textarea  rows="10" cols="70"></textarea>           
-                
-                <label for="radio-email">Email</label> 
-                <input value="Email" id="radio-email" type="radio" name="radio">
+        <main>
         
-                <label for="radio-telefono">Telefono</label> 
-                <input  value="telefono" id="radio-telefono" type="radio" name="radio">
+                <form>
+                    <label for="NombreyApellido">Nombre y Apellido</label>
+                    <input  type="text" id="NombreyApellido " class="input-padron">
         
-                <label for="radio-whatsapp" >Whatsapp</label> 
-                <input value="whatsapp" id="radio-whatsapp" type="radio" name="radio">
-
-                <label><input type="checkbox">¿Le gustaria reciibir novedades de la Barberia Alura?</label> 
+                    <label for="CorreoElectronico" >Correo Electronico</label>
+                    <input type="text" id="CorreoElectronico" class="input-padron">
+        
+                    <label for="telefono" >Telefono</label>
+                    <input type="text" id="telefono" class="input-padron">
+                    
+                    <label for="Mensaje">Mensaje</label>
+                    <textarea  rows="10" cols="70" class="input-padron"></textarea>
+                    
                 
+                    <div>
+                    
+                        <P>Como te gustaria que te contactemos?</P>
 
-                <input type="submit" value="Enviar Formulario">
-
-            </div>
-            </main>
-        </form>
+                        <label for="radio-email"><input value="Email" id="radio-email" type="radio" name="contacto">Email</label> 
+                        
+                
+                        <label for="radio-telefono"><input  value="telefono" id="radio-telefono" type="radio" name="contacto">Telefono</label> 
+                        
+                
+                        <label for="radio-whatsapp" ><input value="whatsapp" id="radio-whatsapp" type="radio" name="contacto">Whatsapp</label> 
+                        
+                    </div>
+                    <div  >
+                        <p>En que momento prefieres ser atendido?</p>
+                        <select >
+                            <option>Mañana</option>
+                            <option>Tarde</option>
+                            <option>Noche</option>
+                        </select>
+                    </div>
+                
+                    <label class="checkbox"><input type="checkbox">¿Le gustaria reciibir novedades de la Barberia Alura?</label> 
+                    
+                    <input type="submit" value="Enviar Formulario">
+                </form>
+        </main>
         <footer>
-            
             <img src="imagenes/logo-blanco.png">
             <p class="Copyrigth">&copy Copyrigth Barberia Alura 2024</p>
         </footer >
