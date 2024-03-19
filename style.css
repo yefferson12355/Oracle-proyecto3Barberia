@@ -1,3 +1,13 @@
+
+/* importamos google font letras publicas o apis? */
+body{
+    font-family: "Flamenco", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    font-family: "Flamenco", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
 header {
     background-color: #BBBBBB;
     padding: 20px 0;
