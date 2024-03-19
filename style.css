@@ -119,9 +119,11 @@ form label, form legend {
     background: orange;
     border: none;
     border-radius: 5px;
-    transition: 2s background;
+    /* para que afecte a  todos los elementos  */
+    transition: 2s all;
     cursor: pointer;   
 }
 .Enviar:hover{
     background: darkorange;
+    transform: scale(1.2);
 }
