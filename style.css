@@ -210,8 +210,14 @@ td, th {
     font-weight: bold;
 }
 
-.imagen-diferenciales {
+.imagen-diferenciales{
     width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.3;
 }
 .mapa-contenido {
     width: 940px;
@@ -230,3 +236,17 @@ td, th {
     margin: 1em auto;
 }
 
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+}
